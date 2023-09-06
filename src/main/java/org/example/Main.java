@@ -5,11 +5,17 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        {
-            List<String> names = List.of("ami", "mari", "yuu", "yuki", "mac");
-            List<String> result = names.stream().sorted().toList();
-            System.out.println(result);
-        }
+
+        List<String> names = List.of("ami", "mari", "yui", "yuki", "mac");
+        names.stream()
+                .sorted()
+                .filter(str -> str.length() >= 4)
+                .forEach(System.out::println);
+        names.stream()
+                .sorted()
+                .filter(name -> name.endsWith("i"))
+                .forEach(System.out::println);
+
         HashMap<String, Integer> map = new HashMap<>();
         map.put("メッシ", 10);
         map.put("ネイマール", 11);

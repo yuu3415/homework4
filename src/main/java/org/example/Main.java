@@ -6,7 +6,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        List<String> names = List.of("ami", "mari", "yui", "yuki", "mac");
+        List<String> names = List.of("ami", "mari", "yui", "yuki", "mac", "yuri");
         names.stream()
                 .sorted()
                 .filter(str -> str.length() >= 4)

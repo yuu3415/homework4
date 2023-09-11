@@ -7,20 +7,4 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="openjdk-20" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
-  <component name="SaveActionSettings">
-    <option name="actions">
-      <set>
-        <option value="activate" />
-        <option value="activateOnBatch" />
-        <option value="organizeImports" />
-        <option value="reformat" />
-      </set>
-    </option>
-    <option name="configurationPath" value="" />
-    <option name="inclusions">
-      <set>
-        <option value=".*\.java" />
-      </set>
-    </option>
-  </component>
 </project>

@@ -6,7 +6,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        List<String> names = List.of("ami", "mari", "yui", "yuki", "mac");
+        List<String> names = List.of("ami", "mari", "yui", "yuki", "mac", "yuri", "yumi");
         names.stream()
                 .sorted()
                 .filter(str -> str.length() >= 4)
@@ -25,4 +25,6 @@ public class Main {
         map.entrySet().stream().sorted(java.util.Map.Entry.comparingByKey())
                 .forEach(System.out::println);
     }
+
+
 }
